@@ -1,0 +1,146 @@
+
+
+html {
+  font-size: 62.5%; /* -> 10px; */
+}
+
+body {
+  max-width: 980px;
+  margin: 0 auto;
+  color: #34314c;
+  font-size: 1.6rem; /* -> 16px; */
+  font-family: "メイリオ","Meiryo","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",sans-serif;
+  background-color: #F0E5DE;
+}
+
+h1 {
+  font-size: 5.4rem;
+  font-weight: lighter;
+}
+
+h2,h3,h4,h5,h6 {
+  margin: 0 0 2rem;
+}
+
+h2 {
+  font-size: 3.6rem;
+  border-bottom: 3px solid #34314c;
+}
+
+h3 {
+  font-size: 2.4rem;
+  border-bottom: 2px solid #34314c;
+}
+
+h4 {
+  font-size: 2rem;
+  border-bottom: 1px solid #34314c;
+}
+
+h5 {
+  font-size: 2rem;
+  border-bottom: 2px dotted #34314c;
+}
+
+h6 {
+  font-size: 2rem;
+  border-bottom: 1px dotted #34314c;
+}
+
+
+p,li {
+  line-height: 1.8;
+}
+
+a {
+  color: #47b8e0;
+}
+
+a:visited {
+  color: #ff7473;
+}
+
+pre {
+  flex-basis: inherit;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+
+
+header h1 {
+  margin: 5rem 3rem 3rem 0;
+  display: inline-block;
+}
+header p {
+  text-align: right;
+  display: inline-block;
+}
+
+main {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+article {
+  max-width: 100%;
+  margin-bottom: 5rem;
+  padding: 3rem;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+  article h1 {
+    margin: 0;
+    font-size: 4rem;
+  }
+
+/* article memo */
+article.memo div {
+  padding: 3rem;
+  border: 1px solid #34314c;
+  border-radius: 15px;
+}
+
+dl.info {
+  display: block;
+  text-align: right;
+  font-size: 1.4rem;
+}
+  dl.info dt,
+  dl.info dd {
+    margin: 0;
+    display: inline-block;
+  }
+  dl.info dt {
+    margin-right: 1rem;
+  }
+  dl.info dd::after {
+    content: " / ";
+  }
+
+code.prettyprint {
+  padding: 5px;
+}
+
+footer {
+  padding: 10rem 0;
+  font-size: 1.4rem;
+}
+
+footer ul {
+  margin: 0;
+  display: block;
+  text-align: right;
+  list-style-type: none;
+}
+  footer ul li {
+    margin-left: 1rem;
+    display: inline-block;
+  }
